@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SAE 1.01 Implémentation d&#39;un besoin client:  Fichier source de src/respStage/responsable.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SAE 1.01 Implémentation d&#39;un besoin client
+   </div>
+   <div id="projectbrief">Bienvenue sur notre SAE 1.01 Implémentation d&#39;un besoin client, les fonctions sont completes, documentées, et fonctionnent! &lt;br&gt; Bonne notation :)</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a0cf8df3023563370f883207874079ab.html">respStage</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">responsable.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#aa8215d7d55b26a1b958c111cf60c7425">charger</a>(<span class="keywordtype">char</span>* nomFichier,<span class="keywordtype">int</span> tab_num_etu[], <span class="keywordtype">int</span> tab_ref[], <span class="keywordtype">float</span> tab_note[]);</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keywordtype">void</span> <a class="code" href="responsable_8c.html#a9d144c38c3b836b1276c35e1fcbf6b10">affichage</a>(<span class="keywordtype">int</span> tab1[], <span class="keywordtype">int</span> tab2[], <span class="keywordtype">float</span> tab3[], <span class="keywordtype">int</span> tlog, <span class="keywordtype">int</span> tmax);</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#a79b82dadba9368225f5376f39b09f4ce">decalerADroite</a>(<span class="keywordtype">int</span> tab1[], <span class="keywordtype">int</span> tab2[], <span class="keywordtype">float</span> tab3[], <span class="keywordtype">int</span> tlog, <span class="keywordtype">int</span> tmax, <span class="keywordtype">int</span> inter);</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#a539fc39562159cb5ae0571806a3dd011">insertion</a>(<span class="keywordtype">int</span> tab1[],<span class="keywordtype">int</span> tab2[],<span class="keywordtype">float</span> tab3[], <span class="keywordtype">int</span> *tlog,<span class="keywordtype">int</span> tmax);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keywordtype">void</span> <a class="code" href="responsable_8c.html#aa3ff46d5ea1c69fde18ee1ef9aced62f">sauvegarde</a>(<span class="keywordtype">int</span> tab1[],<span class="keywordtype">int</span> tab2[],<span class="keywordtype">float</span> tab3[], <span class="keywordtype">int</span> tlog);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#a1a898289f2a96f4ac18c2da318cbefbb">recherche</a>(<span class="keywordtype">int</span> tab[],<span class="keywordtype">int</span> val, <span class="keywordtype">int</span> *trouve, <span class="keywordtype">int</span> tlog);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keywordtype">void</span> <a class="code" href="responsable_8c.html#a668d6992cb0e5fa8beace93fb6b52dee">Supression</a>(<span class="keywordtype">int</span> tabEtu[], <span class="keywordtype">int</span> tabRef[], <span class="keywordtype">float</span> tabNoteF[], <span class="keywordtype">int</span> *tlogi);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keywordtype">void</span> <a class="code" href="responsable_8c.html#a4336bdd3d659d6eee1aae77c787c0b87">decalerAGAuche</a>(<span class="keywordtype">int</span> tabEtu[], <span class="keywordtype">int</span> tabRef[],<span class="keywordtype">float</span> tabNoteF[], <span class="keywordtype">int</span> *tlog, <span class="keywordtype">int</span> i);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#aa05a88aabc646b5668f107b365fa1dcb">chargerOffres</a>(<span class="keywordtype">char</span>* nomFichier, <span class="keywordtype">int</span> tRefs[], <span class="keywordtype">int</span> tDepts[], <span class="keywordtype">int</span> isPourvu[], <span class="keywordtype">int</span> nbCandidats[], <span class="keywordtype">int</span> *tlogRefs, <span class="keywordtype">int</span> *tlog, <span class="keywordtype">int</span> tmaxRefs, <span class="keywordtype">int</span> tmax);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#ade72fa4623fb99f3ec53a90ceee7d606">sauvegarderOffres</a>(<span class="keywordtype">char</span>* nomFichier, <span class="keywordtype">int</span> tRefs[], <span class="keywordtype">int</span> tDepts[], <span class="keywordtype">int</span> isPourvu[], <span class="keywordtype">int</span> nbCandidats[], <span class="keywordtype">int</span> tlogRefs, <span class="keywordtype">int</span> tlog);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keywordtype">void</span> <a class="code" href="responsable_8c.html#aa3173e88295bf3578c291aa8c7f8063f">afficherOffres</a>(<span class="keywordtype">int</span> tRefs[], <span class="keywordtype">int</span> tDepts[], <span class="keywordtype">int</span> isPourvu[], <span class="keywordtype">int</span> nbCandidats[], <span class="keywordtype">int</span> tlog, <span class="keywordtype">int</span> full);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#ae4dcdfe7231178091295bf23f9c56b4e">ajouterOffre</a>(<span class="keywordtype">int</span> tRefs[], <span class="keywordtype">int</span> tDepts[], <span class="keywordtype">int</span> isPourvu[], <span class="keywordtype">int</span> nbCandidats[], <span class="keywordtype">int</span> *tlogRefs, <span class="keywordtype">int</span> *tlog, <span class="keywordtype">int</span> tmax, <span class="keywordtype">int</span> idOffre, <span class="keywordtype">int</span> dept);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#a798dc33bdb5c5c7a4661bd67f1017cef">supprimerOffre</a>(<span class="keywordtype">int</span> tRefs[], <span class="keywordtype">int</span> tDepts[], <span class="keywordtype">int</span> isPourvu[], <span class="keywordtype">int</span> nbCandidats[], <span class="keywordtype">int</span> *tlogRefs, <span class="keywordtype">int</span> *tlog, <span class="keywordtype">int</span> tmax, <span class="keywordtype">int</span> idOffre);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#a6cbba0680a36e9ed65fa7e6f4e8c9fd8">getIndexDepartement</a>(<span class="keywordtype">int</span> tRefs[], <span class="keywordtype">int</span> tlog, <span class="keywordtype">int</span> refToFind);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#a5dc354890a2f0a79e8dc70315566fa79">accepterEtudiant</a>(<span class="keywordtype">int</span> tRefs[], <span class="keywordtype">int</span> isPourvu[], <span class="keywordtype">int</span> nbCandidats[], <span class="keywordtype">int</span> *tlogRefs, <span class="keywordtype">int</span> idOffre, <span class="keywordtype">int</span> idEtudiant);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#a0b4260f3e5d2e33498b600392711f922">rechercheOffre</a>(<span class="keywordtype">int</span> tRefs[], <span class="keywordtype">int</span> offre, <span class="keywordtype">int</span> tlog);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">void</span> <a class="code" href="responsable_8c.html#ad20c667b2d0826a1353e572513e190ef">responsableStage</a>(<span class="keywordtype">int</span> tEtudiant[],<span class="keywordtype">int</span> tab_ref[],<span class="keywordtype">float</span> tab_note[], <span class="keywordtype">int</span> *tlog, <span class="keywordtype">int</span> tRefsOffres[], <span class="keywordtype">int</span> tDepts[], <span class="keywordtype">int</span> isPourvu[], <span class="keywordtype">int</span> nbCandidats[], <span class="keywordtype">int</span> *tlogtRefs, <span class="keywordtype">int</span> *tlogOffresReste, <span class="keywordtype">int</span> tMaxOffres);</div>
+<div class="ttc" id="aresponsable_8c_html_a0b4260f3e5d2e33498b600392711f922"><div class="ttname"><a href="responsable_8c.html#a0b4260f3e5d2e33498b600392711f922">rechercheOffre</a></div><div class="ttdeci">int rechercheOffre(int tRefs[], int offre, int tlog)</div><div class="ttdoc">Recherche une offre ou un étudiant et retourne l'index où il apparait ou -1 si non trouve.</div><div class="ttdef"><b>Definition:</b> responsable.c:574</div></div>
+<div class="ttc" id="aresponsable_8c_html_a1a898289f2a96f4ac18c2da318cbefbb"><div class="ttname"><a href="responsable_8c.html#a1a898289f2a96f4ac18c2da318cbefbb">recherche</a></div><div class="ttdeci">int recherche(int tabEtudiant[], int val, int *trouve, int tlog)</div><div class="ttdoc">Rechercher l'id de l'étudiant.</div><div class="ttdef"><b>Definition:</b> responsable.c:76</div></div>
+<div class="ttc" id="aresponsable_8c_html_a4336bdd3d659d6eee1aae77c787c0b87"><div class="ttname"><a href="responsable_8c.html#a4336bdd3d659d6eee1aae77c787c0b87">decalerAGAuche</a></div><div class="ttdeci">void decalerAGAuche(int tabEtu[], int tabRef[], float tabNoteF[], int *tlog, int i)</div><div class="ttdoc">Permet de Décaler d'un cran vers la gauche toutes les valeurs dans les tableaux.</div><div class="ttdef"><b>Definition:</b> responsable.c:187</div></div>
+<div class="ttc" id="aresponsable_8c_html_a539fc39562159cb5ae0571806a3dd011"><div class="ttname"><a href="responsable_8c.html#a539fc39562159cb5ae0571806a3dd011">insertion</a></div><div class="ttdeci">int insertion(int tab1[], int tab2[], float tab3[], int *tlog, int tmax)</div><div class="ttdoc">Permet d'insérer un nouvel étudiant, sa référence de stage(celui pour lequel il a été accepté) et sa ...</div><div class="ttdef"><b>Definition:</b> responsable.c:129</div></div>
+<div class="ttc" id="aresponsable_8c_html_a5dc354890a2f0a79e8dc70315566fa79"><div class="ttname"><a href="responsable_8c.html#a5dc354890a2f0a79e8dc70315566fa79">accepterEtudiant</a></div><div class="ttdeci">int accepterEtudiant(int tRefs[], int isPourvu[], int nbCandidats[], int *tlogRefs, int idOffre, int idEtudiant)</div><div class="ttdoc">Accepte un étudiant pour une offre de stage.</div><div class="ttdef"><b>Definition:</b> responsable.c:506</div></div>
+<div class="ttc" id="aresponsable_8c_html_a668d6992cb0e5fa8beace93fb6b52dee"><div class="ttname"><a href="responsable_8c.html#a668d6992cb0e5fa8beace93fb6b52dee">Supression</a></div><div class="ttdeci">void Supression(int tabEtu[], int tabRef[], float tabNoteF[], int *tlogi)</div><div class="ttdoc">Permet de supprimer un étudiant présent dans les tableaux.</div><div class="ttdef"><b>Definition:</b> responsable.c:204</div></div>
+<div class="ttc" id="aresponsable_8c_html_a6cbba0680a36e9ed65fa7e6f4e8c9fd8"><div class="ttname"><a href="responsable_8c.html#a6cbba0680a36e9ed65fa7e6f4e8c9fd8">getIndexDepartement</a></div><div class="ttdeci">int getIndexDepartement(int tRefs[], int tlog, int refToFind)</div><div class="ttdoc">retourne l'index des départements d'une offre (fonctionne aussi pour isPourvu, nbCandidats)</div><div class="ttdef"><b>Definition:</b> responsable.c:482</div></div>
+<div class="ttc" id="aresponsable_8c_html_a798dc33bdb5c5c7a4661bd67f1017cef"><div class="ttname"><a href="responsable_8c.html#a798dc33bdb5c5c7a4661bd67f1017cef">supprimerOffre</a></div><div class="ttdeci">int supprimerOffre(int tRefs[], int tDepts[], int isPourvu[], int nbCandidats[], int *tlogRefs, int *tlog, int tmax, int idOffre)</div><div class="ttdoc">Supprime une offre du tableau des offres et les étudiants y postulant.</div><div class="ttdef"><b>Definition:</b> responsable.c:425</div></div>
+<div class="ttc" id="aresponsable_8c_html_a79b82dadba9368225f5376f39b09f4ce"><div class="ttname"><a href="responsable_8c.html#a79b82dadba9368225f5376f39b09f4ce">decalerADroite</a></div><div class="ttdeci">int decalerADroite(int tab1[], int tab2[], float tab3[], int tlog, int tmax, int inter)</div><div class="ttdoc">Permet de Décaler d'un cran vers la droite toutes les valeurs dans les tableaux.</div><div class="ttdef"><b>Definition:</b> responsable.c:103</div></div>
+<div class="ttc" id="aresponsable_8c_html_a9d144c38c3b836b1276c35e1fcbf6b10"><div class="ttname"><a href="responsable_8c.html#a9d144c38c3b836b1276c35e1fcbf6b10">affichage</a></div><div class="ttdeci">void affichage(int tab1[], int tab2[], float tab3[], int tlog, int tmax)</div><div class="ttdoc">Affiche les données des étudians contenues dans les tableaux.</div><div class="ttdef"><b>Definition:</b> responsable.c:54</div></div>
+<div class="ttc" id="aresponsable_8c_html_aa05a88aabc646b5668f107b365fa1dcb"><div class="ttname"><a href="responsable_8c.html#aa05a88aabc646b5668f107b365fa1dcb">chargerOffres</a></div><div class="ttdeci">int chargerOffres(char *nomFichier, int tRefs[], int tDepts[], int isPourvu[], int nbCandidats[], int *tlogRefs, int *tlog, int tmaxRefs, int tmax)</div><div class="ttdoc">Charge un fichier type offres dans les tableaux appropriés.</div><div class="ttdef"><b>Definition:</b> responsable.c:234</div></div>
+<div class="ttc" id="aresponsable_8c_html_aa3173e88295bf3578c291aa8c7f8063f"><div class="ttname"><a href="responsable_8c.html#aa3173e88295bf3578c291aa8c7f8063f">afficherOffres</a></div><div class="ttdeci">void afficherOffres(int tRefs[], int tDepts[], int isPourvu[], int nbCandidats[], int tlog, int full)</div><div class="ttdoc">TODO refaire la fonction.</div><div class="ttdef"><b>Definition:</b> responsable.c:339</div></div>
+<div class="ttc" id="aresponsable_8c_html_aa3ff46d5ea1c69fde18ee1ef9aced62f"><div class="ttname"><a href="responsable_8c.html#aa3ff46d5ea1c69fde18ee1ef9aced62f">sauvegarde</a></div><div class="ttdeci">void sauvegarde(int tabEtu[], int tabRef[], float tabNoteF[], int tlog)</div><div class="ttdoc">Permet de sauvegarder les données contenues dans les tableaux dans le fichier étudiant.</div><div class="ttdef"><b>Definition:</b> responsable.c:163</div></div>
+<div class="ttc" id="aresponsable_8c_html_aa8215d7d55b26a1b958c111cf60c7425"><div class="ttname"><a href="responsable_8c.html#aa8215d7d55b26a1b958c111cf60c7425">charger</a></div><div class="ttdeci">int charger(char *nomFichier, int tab_num_etu[], int tab_ref[], float tab_note[])</div><div class="ttdoc">Permet de charger le fichier contenant tout les étudiants.</div><div class="ttdef"><b>Definition:</b> responsable.c:26</div></div>
+<div class="ttc" id="aresponsable_8c_html_ad20c667b2d0826a1353e572513e190ef"><div class="ttname"><a href="responsable_8c.html#ad20c667b2d0826a1353e572513e190ef">responsableStage</a></div><div class="ttdeci">void responsableStage(int tEtudiant[], int tab_ref[], float tab_note[], int *tlog, int tRefsOffres[], int tDepts[], int isPourvu[], int nbCandidats[], int *tlogtRefs, int *tlogOffresReste, int tMaxOffres)</div><div class="ttdoc">Permet au responsable de stage de choisir ce qu'il veut faire.</div><div class="ttdef"><b>Definition:</b> responsable.c:601</div></div>
+<div class="ttc" id="aresponsable_8c_html_ade72fa4623fb99f3ec53a90ceee7d606"><div class="ttname"><a href="responsable_8c.html#ade72fa4623fb99f3ec53a90ceee7d606">sauvegarderOffres</a></div><div class="ttdeci">int sauvegarderOffres(char *nomFichier, int tRefs[], int tDepts[], int isPourvu[], int nbCandidats[], int tlogRefs, int tlog)</div><div class="ttdoc">Sauvegarde les offres dans un fichier.</div><div class="ttdef"><b>Definition:</b> responsable.c:296</div></div>
+<div class="ttc" id="aresponsable_8c_html_ae4dcdfe7231178091295bf23f9c56b4e"><div class="ttname"><a href="responsable_8c.html#ae4dcdfe7231178091295bf23f9c56b4e">ajouterOffre</a></div><div class="ttdeci">int ajouterOffre(int tRefs[], int tDepts[], int isPourvu[], int nbCandidats[], int *tlogRefs, int *tlog, int tmax, int idOffre, int dept)</div><div class="ttdoc">Ajoute une offre dans le tableau de offres.</div><div class="ttdef"><b>Definition:</b> responsable.c:379</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

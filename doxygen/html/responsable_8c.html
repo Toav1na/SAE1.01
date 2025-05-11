@@ -1,0 +1,1250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SAE 1.01 Implémentation d&#39;un besoin client: Référence du fichier src/respStage/responsable.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SAE 1.01 Implémentation d&#39;un besoin client
+   </div>
+   <div id="projectbrief">Bienvenue sur notre SAE 1.01 Implémentation d&#39;un besoin client, les fonctions sont completes, documentées, et fonctionnent! &lt;br&gt; Bonne notation :)</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a0cf8df3023563370f883207874079ab.html">respStage</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier responsable.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Fichier contenant les fonctions pour la gestion des responsables de stage.  
+<a href="#details">Plus de détails...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &quot;responsable.h&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:acd0dda75fa865e1efae98e3e2b204ef4"><td class="memItemLeft" align="right" valign="top"><a id="acd0dda75fa865e1efae98e3e2b204ef4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>T_MAX</b>&#160;&#160;&#160;50</td></tr>
+<tr class="separator:acd0dda75fa865e1efae98e3e2b204ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:aa8215d7d55b26a1b958c111cf60c7425"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#aa8215d7d55b26a1b958c111cf60c7425">charger</a> (char *nomFichier, int tab_num_etu[], int tab_ref[], float tab_note[])</td></tr>
+<tr class="memdesc:aa8215d7d55b26a1b958c111cf60c7425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de charger le fichier contenant tout les étudiants.  <a href="responsable_8c.html#aa8215d7d55b26a1b958c111cf60c7425">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa8215d7d55b26a1b958c111cf60c7425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d144c38c3b836b1276c35e1fcbf6b10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#a9d144c38c3b836b1276c35e1fcbf6b10">affichage</a> (int tab1[], int tab2[], float tab3[], int tlog, int tmax)</td></tr>
+<tr class="memdesc:a9d144c38c3b836b1276c35e1fcbf6b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Affiche les données des étudians contenues dans les tableaux.  <a href="responsable_8c.html#a9d144c38c3b836b1276c35e1fcbf6b10">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9d144c38c3b836b1276c35e1fcbf6b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a898289f2a96f4ac18c2da318cbefbb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#a1a898289f2a96f4ac18c2da318cbefbb">recherche</a> (int tabEtudiant[], int val, int *trouve, int tlog)</td></tr>
+<tr class="memdesc:a1a898289f2a96f4ac18c2da318cbefbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rechercher l'id de l'étudiant.  <a href="responsable_8c.html#a1a898289f2a96f4ac18c2da318cbefbb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1a898289f2a96f4ac18c2da318cbefbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79b82dadba9368225f5376f39b09f4ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#a79b82dadba9368225f5376f39b09f4ce">decalerADroite</a> (int tab1[], int tab2[], float tab3[], int tlog, int tmax, int inter)</td></tr>
+<tr class="memdesc:a79b82dadba9368225f5376f39b09f4ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de Décaler d'un cran vers la droite toutes les valeurs dans les tableaux.  <a href="responsable_8c.html#a79b82dadba9368225f5376f39b09f4ce">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a79b82dadba9368225f5376f39b09f4ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a539fc39562159cb5ae0571806a3dd011"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#a539fc39562159cb5ae0571806a3dd011">insertion</a> (int tab1[], int tab2[], float tab3[], int *tlog, int tmax)</td></tr>
+<tr class="memdesc:a539fc39562159cb5ae0571806a3dd011"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet d'insérer un nouvel étudiant, sa référence de stage(celui pour lequel il a été accepté) et sa note finale.  <a href="responsable_8c.html#a539fc39562159cb5ae0571806a3dd011">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a539fc39562159cb5ae0571806a3dd011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ff46d5ea1c69fde18ee1ef9aced62f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#aa3ff46d5ea1c69fde18ee1ef9aced62f">sauvegarde</a> (int tabEtu[], int tabRef[], float tabNoteF[], int tlog)</td></tr>
+<tr class="memdesc:aa3ff46d5ea1c69fde18ee1ef9aced62f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de sauvegarder les données contenues dans les tableaux dans le fichier étudiant.  <a href="responsable_8c.html#aa3ff46d5ea1c69fde18ee1ef9aced62f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa3ff46d5ea1c69fde18ee1ef9aced62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4336bdd3d659d6eee1aae77c787c0b87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#a4336bdd3d659d6eee1aae77c787c0b87">decalerAGAuche</a> (int tabEtu[], int tabRef[], float tabNoteF[], int *tlog, int i)</td></tr>
+<tr class="memdesc:a4336bdd3d659d6eee1aae77c787c0b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de Décaler d'un cran vers la gauche toutes les valeurs dans les tableaux.  <a href="responsable_8c.html#a4336bdd3d659d6eee1aae77c787c0b87">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4336bdd3d659d6eee1aae77c787c0b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a668d6992cb0e5fa8beace93fb6b52dee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#a668d6992cb0e5fa8beace93fb6b52dee">Supression</a> (int tabEtu[], int tabRef[], float tabNoteF[], int *tlogi)</td></tr>
+<tr class="memdesc:a668d6992cb0e5fa8beace93fb6b52dee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de supprimer un étudiant présent dans les tableaux.  <a href="responsable_8c.html#a668d6992cb0e5fa8beace93fb6b52dee">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a668d6992cb0e5fa8beace93fb6b52dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa05a88aabc646b5668f107b365fa1dcb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#aa05a88aabc646b5668f107b365fa1dcb">chargerOffres</a> (char *nomFichier, int tRefs[], int tDepts[], int isPourvu[], int nbCandidats[], int *tlogRefs, int *tlog, int tmaxRefs, int tmax)</td></tr>
+<tr class="memdesc:aa05a88aabc646b5668f107b365fa1dcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charge un fichier type offres dans les tableaux appropriés.  <a href="responsable_8c.html#aa05a88aabc646b5668f107b365fa1dcb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa05a88aabc646b5668f107b365fa1dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade72fa4623fb99f3ec53a90ceee7d606"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#ade72fa4623fb99f3ec53a90ceee7d606">sauvegarderOffres</a> (char *nomFichier, int tRefs[], int tDepts[], int isPourvu[], int nbCandidats[], int tlogRefs, int tlog)</td></tr>
+<tr class="memdesc:ade72fa4623fb99f3ec53a90ceee7d606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sauvegarde les offres dans un fichier.  <a href="responsable_8c.html#ade72fa4623fb99f3ec53a90ceee7d606">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ade72fa4623fb99f3ec53a90ceee7d606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3173e88295bf3578c291aa8c7f8063f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#aa3173e88295bf3578c291aa8c7f8063f">afficherOffres</a> (int tRefs[], int tDepts[], int isPourvu[], int nbCandidats[], int tlog, int full)</td></tr>
+<tr class="memdesc:aa3173e88295bf3578c291aa8c7f8063f"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO refaire la fonction.  <a href="responsable_8c.html#aa3173e88295bf3578c291aa8c7f8063f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa3173e88295bf3578c291aa8c7f8063f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4dcdfe7231178091295bf23f9c56b4e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#ae4dcdfe7231178091295bf23f9c56b4e">ajouterOffre</a> (int tRefs[], int tDepts[], int isPourvu[], int nbCandidats[], int *tlogRefs, int *tlog, int tmax, int idOffre, int dept)</td></tr>
+<tr class="memdesc:ae4dcdfe7231178091295bf23f9c56b4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajoute une offre dans le tableau de offres.  <a href="responsable_8c.html#ae4dcdfe7231178091295bf23f9c56b4e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae4dcdfe7231178091295bf23f9c56b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a798dc33bdb5c5c7a4661bd67f1017cef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#a798dc33bdb5c5c7a4661bd67f1017cef">supprimerOffre</a> (int tRefs[], int tDepts[], int isPourvu[], int nbCandidats[], int *tlogRefs, int *tlog, int tmax, int idOffre)</td></tr>
+<tr class="memdesc:a798dc33bdb5c5c7a4661bd67f1017cef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supprime une offre du tableau des offres et les étudiants y postulant.  <a href="responsable_8c.html#a798dc33bdb5c5c7a4661bd67f1017cef">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a798dc33bdb5c5c7a4661bd67f1017cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cbba0680a36e9ed65fa7e6f4e8c9fd8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#a6cbba0680a36e9ed65fa7e6f4e8c9fd8">getIndexDepartement</a> (int tRefs[], int tlog, int refToFind)</td></tr>
+<tr class="memdesc:a6cbba0680a36e9ed65fa7e6f4e8c9fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">retourne l'index des départements d'une offre (fonctionne aussi pour isPourvu, nbCandidats)  <a href="responsable_8c.html#a6cbba0680a36e9ed65fa7e6f4e8c9fd8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6cbba0680a36e9ed65fa7e6f4e8c9fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dc354890a2f0a79e8dc70315566fa79"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#a5dc354890a2f0a79e8dc70315566fa79">accepterEtudiant</a> (int tRefs[], int isPourvu[], int nbCandidats[], int *tlogRefs, int idOffre, int idEtudiant)</td></tr>
+<tr class="memdesc:a5dc354890a2f0a79e8dc70315566fa79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepte un étudiant pour une offre de stage.  <a href="responsable_8c.html#a5dc354890a2f0a79e8dc70315566fa79">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5dc354890a2f0a79e8dc70315566fa79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b4260f3e5d2e33498b600392711f922"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#a0b4260f3e5d2e33498b600392711f922">rechercheOffre</a> (int tRefs[], int offre, int tlog)</td></tr>
+<tr class="memdesc:a0b4260f3e5d2e33498b600392711f922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recherche une offre ou un étudiant et retourne l'index où il apparait ou -1 si non trouve.  <a href="responsable_8c.html#a0b4260f3e5d2e33498b600392711f922">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0b4260f3e5d2e33498b600392711f922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad20c667b2d0826a1353e572513e190ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="responsable_8c.html#ad20c667b2d0826a1353e572513e190ef">responsableStage</a> (int tEtudiant[], int tab_ref[], float tab_note[], int *tlog, int tRefsOffres[], int tDepts[], int isPourvu[], int nbCandidats[], int *tlogtRefs, int *tlogOffresReste, int tMaxOffres)</td></tr>
+<tr class="memdesc:ad20c667b2d0826a1353e572513e190ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet au responsable de stage de choisir ce qu'il veut faire.  <a href="responsable_8c.html#ad20c667b2d0826a1353e572513e190ef">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad20c667b2d0826a1353e572513e190ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Fichier contenant les fonctions pour la gestion des responsables de stage. </p>
+<dl class="section author"><dt>Auteurs</dt><dd>Julien &amp; Toavina </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2024-11-14</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2024 </dd></dl>
+</div><h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a5dc354890a2f0a79e8dc70315566fa79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dc354890a2f0a79e8dc70315566fa79">&#9670;&nbsp;</a></span>accepterEtudiant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int accepterEtudiant </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tRefs</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>isPourvu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nbCandidats</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlogRefs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idOffre</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idEtudiant</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Accepte un étudiant pour une offre de stage. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tRefs</td><td>Tableau des références des offres, suivies des étudiant, pour avoir le nombre d'offres, utiliser <code>lenOffres</code> </td></tr>
+    <tr><td class="paramname">isPourvu</td><td>Tableau disant si l'offre est pourvue </td></tr>
+    <tr><td class="paramname">nbCandidats</td><td>Tableau contenant le nombre des candidats pour une offre </td></tr>
+    <tr><td class="paramname">tlogRefs</td><td>taille logique du tableau tRefs </td></tr>
+    <tr><td class="paramname">idOffre</td><td>référence de l'offre à ajouter (4chiffres) </td></tr>
+    <tr><td class="paramname">idEtudiant</td><td>id de l'étudiant à pourvoir (3chiffres) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>int négatif si erreur, 0 si tout est bon </dd></dl>
+
+</div>
+</div>
+<a id="a9d144c38c3b836b1276c35e1fcbf6b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d144c38c3b836b1276c35e1fcbf6b10">&#9670;&nbsp;</a></span>affichage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void affichage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tab1</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tab2</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tab3</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tlog</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Affiche les données des étudians contenues dans les tableaux. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tab1</td><td>Tableau contenant les numéros d'étudiant. </td></tr>
+    <tr><td class="paramname">tab2</td><td>Tableau des références des offres suivies des étudiant </td></tr>
+    <tr><td class="paramname">tab3</td><td>Tableau des notes finales des étudiants </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique des tableaux </td></tr>
+    <tr><td class="paramname">tmax</td><td>taille physique des tableaux </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa3173e88295bf3578c291aa8c7f8063f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3173e88295bf3578c291aa8c7f8063f">&#9670;&nbsp;</a></span>afficherOffres()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void afficherOffres </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tRefs</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tDepts</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>isPourvu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nbCandidats</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tlog</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>full</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>TODO refaire la fonction. </p>
+<p>Affiche toutes les offres chargées</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tRefs</td><td>Tableau des références des offres, suivies des étudiant. Pour avoir le nombre d'offres, utiliser <code>lenOffres</code> </td></tr>
+    <tr><td class="paramname">tDepts</td><td>Tableau des départements des offres offres </td></tr>
+    <tr><td class="paramname">isPourvu</td><td>Tableau disant si l'offre est pourvue </td></tr>
+    <tr><td class="paramname">nbCandidats</td><td>Tableau contenant le nombre des candidats pour une offre </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique du tableau tRefs </td></tr>
+    <tr><td class="paramname">full</td><td>si =0 affichage des offres, sinon affichage des etudiants candidats en plus </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae4dcdfe7231178091295bf23f9c56b4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4dcdfe7231178091295bf23f9c56b4e">&#9670;&nbsp;</a></span>ajouterOffre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ajouterOffre </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tRefs</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tDepts</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>isPourvu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nbCandidats</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlogRefs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlog</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idOffre</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dept</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ajoute une offre dans le tableau de offres. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tRefs</td><td>Tableau des références des offres, suivies des étudiant, pour avoir le nombre d'offres, utiliser <code>lenOffres</code> </td></tr>
+    <tr><td class="paramname">tDepts</td><td>Tableau des départements des offres offres </td></tr>
+    <tr><td class="paramname">isPourvu</td><td>Tableau disant si l'offre est pourvue </td></tr>
+    <tr><td class="paramname">nbCandidats</td><td>Tableau contenant le nombre des candidats pour une offre </td></tr>
+    <tr><td class="paramname">tlogRefs</td><td>taille logique du tableau tRefs </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique des autres tableaux </td></tr>
+    <tr><td class="paramname">tmax</td><td>taille phyisique du tableau tRefs </td></tr>
+    <tr><td class="paramname">idOffre</td><td>référence de l'offre à ajouter (4chiffres) </td></tr>
+    <tr><td class="paramname">dept</td><td>département à ajouter</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>code de retour de la fonction </dd></dl>
+
+</div>
+</div>
+<a id="aa8215d7d55b26a1b958c111cf60c7425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8215d7d55b26a1b958c111cf60c7425">&#9670;&nbsp;</a></span>charger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int charger </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>nomFichier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tab_num_etu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tab_ref</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tab_note</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet de charger le fichier contenant tout les étudiants. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nomFichier</td><td>chemin vers le fichier contenant tout les étudiants </td></tr>
+    <tr><td class="paramname">tab_num_etu</td><td>Tableau contenant les numéros d'étudiant. </td></tr>
+    <tr><td class="paramname">tab_ref</td><td>Tableau des références des offres suivies des étudiant </td></tr>
+    <tr><td class="paramname">tab_note</td><td>Tableau des notes finales des étudiants </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>la taille physique de tout les tableaux </dd></dl>
+
+</div>
+</div>
+<a id="aa05a88aabc646b5668f107b365fa1dcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa05a88aabc646b5668f107b365fa1dcb">&#9670;&nbsp;</a></span>chargerOffres()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int chargerOffres </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>nomFichier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tRefs</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tDepts</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>isPourvu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nbCandidats</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlogRefs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlog</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tmaxRefs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Charge un fichier type offres dans les tableaux appropriés. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nomFichier</td><td>Le nom du fichier qu'on veut importer (oui c'est théoriquement une chaine de caractère, mais je voulais des dossiers séparés) </td></tr>
+    <tr><td class="paramname">tRefs</td><td>Tableau des références des offres, suivies des étudiant, pour avoir le nombre d'offres, utiliser <code>lenOffres</code> </td></tr>
+    <tr><td class="paramname">tDepts</td><td>Tableau des départements des offres offres </td></tr>
+    <tr><td class="paramname">isPourvu</td><td>Tableau disant si l'offre est pourvue </td></tr>
+    <tr><td class="paramname">nbCandidats</td><td>Tableau contenant le nombre des candidats pour une offre </td></tr>
+    <tr><td class="paramname">tlogRefs</td><td>taille logique du tableau tRefs </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique des autre tableaux </td></tr>
+    <tr><td class="paramname">tmaxRefs</td><td>taille physique de tRefs </td></tr>
+    <tr><td class="paramname">tmax</td><td>taille physique des autres tableaux </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>code de retour de la fonction </dd></dl>
+
+</div>
+</div>
+<a id="a79b82dadba9368225f5376f39b09f4ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79b82dadba9368225f5376f39b09f4ce">&#9670;&nbsp;</a></span>decalerADroite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int decalerADroite </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tab1</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tab2</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tab3</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tlog</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet de Décaler d'un cran vers la droite toutes les valeurs dans les tableaux. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tab1</td><td>Tableau contenant les numéros d'étudiant. </td></tr>
+    <tr><td class="paramname">tab2</td><td>Tableau des références des offres suivies des étudiant </td></tr>
+    <tr><td class="paramname">tab3</td><td>Tableau des notes finales des étudiants </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique des tableaux </td></tr>
+    <tr><td class="paramname">tmax</td><td>Taille physique des Tableaux </td></tr>
+    <tr><td class="paramname">inter</td><td>index de la position de l'étudiant dans le son tableau </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>nouvelle taille logique des tableaux(tlog + 1) </dd></dl>
+
+</div>
+</div>
+<a id="a4336bdd3d659d6eee1aae77c787c0b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4336bdd3d659d6eee1aae77c787c0b87">&#9670;&nbsp;</a></span>decalerAGAuche()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void decalerAGAuche </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tabEtu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tabRef</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tabNoteF</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlog</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet de Décaler d'un cran vers la gauche toutes les valeurs dans les tableaux. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tabEtu</td><td>Tableau contenant les numéros d'étudiant. </td></tr>
+    <tr><td class="paramname">tabRef</td><td>Tableau des références des offres suivies des étudiant </td></tr>
+    <tr><td class="paramname">tabNoteF</td><td>Tableau des notes finales des étudiants </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique des tableaux </td></tr>
+    <tr><td class="paramname">i</td><td>index de la position de l'étudiant dans le son tableau </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6cbba0680a36e9ed65fa7e6f4e8c9fd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cbba0680a36e9ed65fa7e6f4e8c9fd8">&#9670;&nbsp;</a></span>getIndexDepartement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int getIndexDepartement </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tRefs</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tlog</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>refToFind</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>retourne l'index des départements d'une offre (fonctionne aussi pour isPourvu, nbCandidats) </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tRefs</td><td>Tableau des références des offres, suivies des étudiant, pour avoir le nombre d'offres, utiliser <code>lenOffres</code> </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille phyisique du tableau tRefs </td></tr>
+    <tr><td class="paramname">refToFind</td><td>idOffre à rechercher</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>int -1 si non trouvé, index du département sinon </dd></dl>
+
+</div>
+</div>
+<a id="a539fc39562159cb5ae0571806a3dd011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a539fc39562159cb5ae0571806a3dd011">&#9670;&nbsp;</a></span>insertion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int insertion </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tab1</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tab2</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tab3</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlog</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet d'insérer un nouvel étudiant, sa référence de stage(celui pour lequel il a été accepté) et sa note finale. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tab1</td><td>Tableau contenant les numéros d'étudiant. </td></tr>
+    <tr><td class="paramname">tab2</td><td>Tableau des références des offres suivies des étudiant </td></tr>
+    <tr><td class="paramname">tab3</td><td>Tableau des notes finales des étudiants </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique des tableaux </td></tr>
+    <tr><td class="paramname">tmax</td><td>Taille physique des Tableaux </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>nouvelle taille logique des tableaux </dd></dl>
+
+</div>
+</div>
+<a id="a1a898289f2a96f4ac18c2da318cbefbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a898289f2a96f4ac18c2da318cbefbb">&#9670;&nbsp;</a></span>recherche()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int recherche </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tabEtudiant</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>trouve</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tlog</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rechercher l'id de l'étudiant. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tabEtudiant</td><td>Tableau contenant les numéros d'étudiant </td></tr>
+    <tr><td class="paramname">val</td><td>id de l'étudiant à rechercher </td></tr>
+    <tr><td class="paramname">trouve</td><td>variable indiquant si l'étudiant à été trouvé ou non </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique du tableau tabEtudiant </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>index de la position de l'étudiant dans le son tableau </dd></dl>
+
+</div>
+</div>
+<a id="a0b4260f3e5d2e33498b600392711f922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b4260f3e5d2e33498b600392711f922">&#9670;&nbsp;</a></span>rechercheOffre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int rechercheOffre </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tRefs</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offre</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tlog</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Recherche une offre ou un étudiant et retourne l'index où il apparait ou -1 si non trouve. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tRefs</td><td>Tableau des références des offres, suivies des étudiant, pour avoir le nombre d'offres, utiliser <code>lenOffres</code> </td></tr>
+    <tr><td class="paramname">idOffre</td><td>valeur à recharcher dans le tableau </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique du tableau tRefs</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="ad20c667b2d0826a1353e572513e190ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad20c667b2d0826a1353e572513e190ef">&#9670;&nbsp;</a></span>responsableStage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void responsableStage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tEtudiant</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tab_ref</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tab_note</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlog</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tRefsOffres</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tDepts</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>isPourvu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nbCandidats</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlogtRefs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlogOffresReste</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tMaxOffres</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet au responsable de stage de choisir ce qu'il veut faire. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tEtudiant</td><td>Tableau contenant les numéros d'étudiant. </td></tr>
+    <tr><td class="paramname">tab_ref</td><td>Tableau des références des offres suivies des étudiant </td></tr>
+    <tr><td class="paramname">tab_note</td><td>Tableau des notes finales des étudiants </td></tr>
+    <tr><td class="paramname">tlog</td><td>sagit de la taille logique du tableau (la meme pour chaque tableau etudiant) </td></tr>
+    <tr><td class="paramname">tRefsOffres</td><td>Tableau des références des offres de stages </td></tr>
+    <tr><td class="paramname">tDepts</td><td>Tableau des départements des offres offres </td></tr>
+    <tr><td class="paramname">isPourvu</td><td>Tableau disant si l'offre est pourvue </td></tr>
+    <tr><td class="paramname">nbCandidats</td><td>Tableau contenant le nombre des candidats pour une offre </td></tr>
+    <tr><td class="paramname">tlogtRefs</td><td>taille logique du tableau tRefs </td></tr>
+    <tr><td class="paramname">tlogOffresReste</td><td>taille logique du tableau tRefs </td></tr>
+    <tr><td class="paramname">tMaxOffres</td><td>taille physique de tRefsOffres </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa3ff46d5ea1c69fde18ee1ef9aced62f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3ff46d5ea1c69fde18ee1ef9aced62f">&#9670;&nbsp;</a></span>sauvegarde()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sauvegarde </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tabEtu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tabRef</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tabNoteF</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tlog</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet de sauvegarder les données contenues dans les tableaux dans le fichier étudiant. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tabEtu</td><td>Tableau contenant les numéros d'étudiant. </td></tr>
+    <tr><td class="paramname">tabRef</td><td>Tableau des références des offres suivies des étudiant </td></tr>
+    <tr><td class="paramname">tabNoteF</td><td>Tableau des notes finales des étudiants </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique des tableaux </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ade72fa4623fb99f3ec53a90ceee7d606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade72fa4623fb99f3ec53a90ceee7d606">&#9670;&nbsp;</a></span>sauvegarderOffres()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int sauvegarderOffres </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>nomFichier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tRefs</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tDepts</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>isPourvu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nbCandidats</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tlogRefs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tlog</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sauvegarde les offres dans un fichier. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nomFichier</td><td>Le nom du fichier qu'on veut importer (oui c'est théoriquement une chaine de caractère, mais je voulais des dossiers séparés) </td></tr>
+    <tr><td class="paramname">tRefs</td><td>Tableau des références des offres, suivies des étudiant, pour avoir le nombre d'offres, utiliser <code>lenOffres</code> </td></tr>
+    <tr><td class="paramname">tDepts</td><td>Tableau des départements des offres offres </td></tr>
+    <tr><td class="paramname">isPourvu</td><td>Tableau disant si l'offre est pourvue </td></tr>
+    <tr><td class="paramname">nbCandidats</td><td>Tableau contenant le nombre des candidats pour une offre </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique des tableaux tDept, isPourvu, nbCandidats, il sont les plus petits </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>int code de retour de la fonction </dd></dl>
+
+</div>
+</div>
+<a id="a798dc33bdb5c5c7a4661bd67f1017cef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a798dc33bdb5c5c7a4661bd67f1017cef">&#9670;&nbsp;</a></span>supprimerOffre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int supprimerOffre </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tRefs</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tDepts</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>isPourvu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nbCandidats</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlogRefs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlog</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idOffre</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Supprime une offre du tableau des offres et les étudiants y postulant. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tRefs</td><td>Tableau des références des offres, suivies des étudiant, pour avoir le nombre d'offres, utiliser <code>lenOffres</code> </td></tr>
+    <tr><td class="paramname">tDepts</td><td>Tableau des départements des offres offres </td></tr>
+    <tr><td class="paramname">isPourvu</td><td>Tableau disant si l'offre est pourvue </td></tr>
+    <tr><td class="paramname">nbCandidats</td><td>Tableau contenant le nombre des candidats pour une offre </td></tr>
+    <tr><td class="paramname">tlogRefs</td><td>taille logique du tableau tRefs </td></tr>
+    <tr><td class="paramname">tlog</td><td>taille logique des autres tableaux </td></tr>
+    <tr><td class="paramname">tmax</td><td>taille phyisique du tableau tRefs </td></tr>
+    <tr><td class="paramname">idOffre</td><td>référence de l'offre à ajouter (4chiffres)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>int (code de retour de la fonction) </dd></dl>
+
+</div>
+</div>
+<a id="a668d6992cb0e5fa8beace93fb6b52dee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a668d6992cb0e5fa8beace93fb6b52dee">&#9670;&nbsp;</a></span>Supression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Supression </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tabEtu</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tabRef</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>tabNoteF</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>tlogi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet de supprimer un étudiant présent dans les tableaux. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tabEtu</td><td>Tableau contenant les numéros d'étudiant. </td></tr>
+    <tr><td class="paramname">tabRef</td><td>Tableau des références des offres suivies des étudiant </td></tr>
+    <tr><td class="paramname">tabNoteF</td><td>Tableau des notes finales des étudiants </td></tr>
+    <tr><td class="paramname">tlogi</td><td>taille logique des tableaux </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

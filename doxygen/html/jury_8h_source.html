@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SAE 1.01 Implémentation d&#39;un besoin client:  Fichier source de src/jury/jury.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SAE 1.01 Implémentation d&#39;un besoin client
+   </div>
+   <div id="projectbrief">Bienvenue sur notre SAE 1.01 Implémentation d&#39;un besoin client, les fonctions sont completes, documentées, et fonctionnent! &lt;br&gt; Bonne notation :)</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_1042494d534b90ef5b61b018bfac1b4a.html">jury</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">jury.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keywordtype">int</span> <a class="code" href="responsable_8c.html#a1a898289f2a96f4ac18c2da318cbefbb">recherche</a>(<span class="keywordtype">int</span> tab[],<span class="keywordtype">int</span> val, <span class="keywordtype">int</span> *trouve, <span class="keywordtype">int</span> tlog);</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keywordtype">float</span> <a class="code" href="jury_8c.html#a847fe6e5d05bad294c570d593edb1887">noter_stages</a>(<span class="keywordtype">int</span> tabetu[],<span class="keywordtype">int</span> tab_ref[],<span class="keywordtype">float</span> tab_note[],<span class="keywordtype">int</span> tlog);</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keywordtype">void</span> <a class="code" href="jury_8c.html#a587dc0eed27a5fdcbf6b9a06aa9e6df8">jury</a>(<span class="keywordtype">int</span> tab_num_etu[],<span class="keywordtype">int</span> tab_ref[],<span class="keywordtype">float</span> tab_note[], <span class="keywordtype">int</span> tlog);</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">void</span> <a class="code" href="jury_8c.html#ad8c7381103c1bb10d01007ef20968339">afficher_notes_decroissantes</a>(<span class="keywordtype">int</span> tab_num_etu[],<span class="keywordtype">int</span> tab_ref[],<span class="keywordtype">float</span> tab_note[]);</div>
+<div class="ttc" id="ajury_8c_html_a587dc0eed27a5fdcbf6b9a06aa9e6df8"><div class="ttname"><a href="jury_8c.html#a587dc0eed27a5fdcbf6b9a06aa9e6df8">jury</a></div><div class="ttdeci">void jury(int tab_num_etu[], int tab_ref[], float tab_note[], int tlog)</div><div class="ttdoc">Menu permetant au jury de choisir une action.</div><div class="ttdef"><b>Definition:</b> jury.c:25</div></div>
+<div class="ttc" id="ajury_8c_html_a847fe6e5d05bad294c570d593edb1887"><div class="ttname"><a href="jury_8c.html#a847fe6e5d05bad294c570d593edb1887">noter_stages</a></div><div class="ttdeci">float noter_stages(int tabetu[], int tab_ref[], float tab_note[], int tlog)</div><div class="ttdoc">Fonction permettant au jury d'entrer + calculer la moyenne des trois notes.</div><div class="ttdef"><b>Definition:</b> jury.c:63</div></div>
+<div class="ttc" id="ajury_8c_html_ad8c7381103c1bb10d01007ef20968339"><div class="ttname"><a href="jury_8c.html#ad8c7381103c1bb10d01007ef20968339">afficher_notes_decroissantes</a></div><div class="ttdeci">void afficher_notes_decroissantes(int tab_num_etu[], int tab_ref[], float tab_note[])</div><div class="ttdoc">Permet d'afficher les notes des étudiants(qui ont une note différente de -1) dans l'ordre décroissant...</div><div class="ttdef"><b>Definition:</b> jury.c:98</div></div>
+<div class="ttc" id="aresponsable_8c_html_a1a898289f2a96f4ac18c2da318cbefbb"><div class="ttname"><a href="responsable_8c.html#a1a898289f2a96f4ac18c2da318cbefbb">recherche</a></div><div class="ttdeci">int recherche(int tabEtudiant[], int val, int *trouve, int tlog)</div><div class="ttdoc">Rechercher l'id de l'étudiant.</div><div class="ttdef"><b>Definition:</b> responsable.c:76</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
